@@ -27,7 +27,7 @@ class ItemsViewModel : ViewModel() {
         } catch (e: Exception) {
             Log.d("ItemsViewModel", "First Exception: ${e.message}")
         } catch (e: Exception) {
-            Log.d("ItemsViewModel", "Second catch: ${e.message}")
+            Log.d("ItemsViewModel", "Second Exception: ${e.message}")
 
         }
             return successfulResponse;
